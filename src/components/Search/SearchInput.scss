@@ -1,0 +1,35 @@
+.fa-search {
+    margin-left: 5px;
+    font-size: 18px;
+}
+form.form input[type="text"] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.form button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196f3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.form::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.SearchInput input {
+    border-radius: 15px 15px 15px 15px;
+    height: 30px;
+}
+
